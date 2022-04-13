@@ -42,27 +42,27 @@
     height: 344px;
     .bet-list {
       position: absolute;
-      top: 10px;
-      left: 22px;
-      height: 330px;
-      width: 330px;
+      top: 11px;
+      left: 26px;
       background-image: url(../../assets/images/bet-item-bg.png);
       background-size: 100% 100%;
       background-repeat: no-repeat;
+      background-position-y: -10px;
+      height: 340px;
+      width: 321px;
       li {
         position: absolute;
-        width: 46px;
-        height: 46px;
+        width: 47px;
+        height: 47px;
         background-size: 100% 100%;
-        // box-shadow: inset 0 0 10px #000;
-        border: 1px solid #000;
+        box-shadow: inset 0 0 10px #000;
         &.light-on::after {
           content: "";
+          width: 57px;
+          height: 57px;
           position: absolute;
-          top: -3px;
-          left: -4px;
-          width: 55px;
-          height: 55px;
+          top: -6px;
+          left: -7px;
           z-index: 1;
           background-image: url(../../assets/images/bet-item-light.png);
           background-size: 100% 100%;
@@ -70,109 +70,109 @@
           animation: runanime .3s linear;
         }
         &.bet-item1 {
-          top: 3px;
-          left: 4px;
+          top: 0;
+          left: 0;
         }
         &.bet-item2 {
-          top: 3px;
-          left: 50px;
+          top: 0;
+          left: 46px;
         }
         &.bet-item3 {
-          top: 3px;
-          left: 96px;
+          top: 0;
+          left: 92px;
         }
         &.bet-item4 {
-          top: 3px;
-          left: 142px;
+          top: 0;
+          left: 138px;
         }
         &.bet-item5 {
-          top: 3px;
-          left: 188px;
+          top: 0;
+          left: 184px;
         }
         &.bet-item6 {
-          top: 3px;
-          left: 234px;
+          top: 0;
+          left: 230px;
         }
         &.bet-item7 {
-          top: 3px;
-          left: 280px;
+          top: 0;
+          left: 274px;
         }
         &.bet-item8 {
-          top: 49px;
-          left: 280px;
+          top: 46px;
+          left: 274px;
         }
         &.bet-item9 {
-          top: 95px;
-          left: 280px;
+          top: 92px;
+          left: 274px;
         }
         &.bet-item10 {
-          top: 141px;
-          left: 280px;
+          top: 138px;
+          left: 275px;
         }
         &.bet-item11 {
-          top: 187px;
-          left: 279px;
+          top: 184px;
+          left: 274px;
         }
         &.bet-item12 {
-          top: 233px;
-          left: 280px;
+          top: 230px;
+          left: 274px;
         }
         &.bet-item13 {
-          top: 279px;
-          left: 280px;
+          top: 276px;
+          left: 274px;
         }
         &.bet-item14 {
-          top: 279px;
-          left: 234px;
+          top: 276px;
+          left: 230px;
         }
         &.bet-item15 {
-          top: 279px;
-          left: 188px;
+          top: 276px;
+          left: 184px;
         }
         &.bet-item16 {
-          top: 279px;
-          left: 142px;
+          top: 276px;
+          left: 138px;
         }
         &.bet-item17 {
-          top: 279px;
-          left: 96px;
+          top: 276px;
+          left: 92px;
         }
         &.bet-item18 {
-          top: 279px;
-          left: 50px;
+          top: 276px;
+          left: 46px;
         }
         &.bet-item19 {
-          top: 279px;
-          left: 4px;
+          top: 276px;
+          left: 0;
         }
         &.bet-item20 {
-          top: 233px;
-          left: 4px;
+          top: 230px;
+          left: 0;
         }
         &.bet-item21 {
-          top: 187px;
-          left: 4px;
+          top: 184px;
+          left: 0;
         }
         &.bet-item22 {
-          top: 141px;
-          left: 4px;
+          top: 138px;
+          left: 0;
         }
         &.bet-item23 {
-          top: 95px;
-          left: 4px;
+          top: 92px;
+          left: 0;
         }
         &.bet-item24 {
-          top: 49px;
-          left: 4px;
+          top: 46px;
+          left: 0;
         }
       }
     }
     .big-item-image{
       position: absolute;
       top: 54px;
-      left: 65px;
-      width: 242px;
-      height: 242px;
+      left: 72px;
+      width: 228px;
+      height: 237px;
       img {
         width: 100%;
         height: 100%;
@@ -224,7 +224,7 @@
     .button-circle {
       // background-size: 100% 100%;
       background-image: url(../../assets/images/action-buttons.png);
-      background-size: 500%;
+      background-size: 497%;
       background-repeat: no-repeat;
       width: 70px;
       height: 60px;
@@ -237,11 +237,6 @@
         &:active {
           background-position: -183px -81px;
         }
-        &.auto-launching-lock {
-          &:active {
-            background-position: -183px -7px;
-          }
-        }
       }
       &.small-button {
         top: 0;
@@ -253,11 +248,6 @@
         &.btn-on{
           background-position: -83px -167px;
         }
-        &.auto-launching-lock {
-          &:active {
-            background-position: 0px -167px;
-          }
-        }
       }
       &.big-button {
         top: 0;
@@ -268,11 +258,6 @@
         }
         &.btn-on{
           background-position: -83px -93px;
-        }
-        &.auto-launching-lock {
-          &:active {
-            background-position: 0px -93px;
-          }
         }
       }
       &.auto-button {
@@ -293,14 +278,6 @@
         &:active {
           background-position: -268px -158px;
         }
-        &.btn-on{
-          background-position: -268px -158px;
-        }
-        &.auto-launching-lock {
-          &:active {
-            background-position: -268px -84px;
-          }
-        }
       }
     }
     .button-rectangle {
@@ -316,14 +293,6 @@
       display: inline-block;
       &:active {
         background-position: -103px -5px;
-      }
-      &.btn-on {
-        background-position: -103px -5px;
-      }
-      &.auto-launching-lock {
-        &:active {
-          background-position: -10px -5px;
-        }
       }
     }
   }
