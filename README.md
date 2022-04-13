@@ -6,11 +6,13 @@
 这是一个在线上跑的需求，内嵌在app里，目的是为了记录遇到的问题与解决方案
 
 ### 分支
-把这个项目所有的代码都放在仓库里参考
-vue-ver options api代码（完整项目）
-vue3-ver composition api代码（页面完整，脚本进度10%）
-react-ver react代码（整体进度80%）
-phaser-ver phaser代码（整体进度5%）
+把这个项目所有的代码都放在仓库里参考      
+```
+vue-ver -> options api代码（完整项目）     
+vue3-ver -> composition api代码（页面完整，脚本进度10%）        
+react-ver -> react代码（整体进度80%）      
+phaser-ver -> phaser代码（整体进度5%）     
+```
 
 ### envirment and cli
 api config src/service/apiAddress.js    
