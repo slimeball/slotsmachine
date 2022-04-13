@@ -1,6 +1,6 @@
 ## slotsmachine 水果机 老虎机
 
-<img src="https://github.com/slimeball/slotsmachine/blob/vue-ver/howtoplay.gif" width="320"/>
+<img src="https://github.com/slimeball/slotsmachine/blob/introduction/howtoplay.gif" width="320"/>
 
 ## 关于本仓库
 这是一个在线上跑的需求，内嵌在app里，目的是为了记录遇到的问题与解决方案
