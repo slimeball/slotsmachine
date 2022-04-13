@@ -1,0 +1,33 @@
+.header{
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 0 15px;
+  .back-btn{
+    background-image: url(../images/back-button.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 38px;
+    height: 38px;
+  }
+  .gametitle{
+    background-image: url(../images/gametitle.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 178px;
+    height: 68px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .gamerule{
+    background-image: url(../images/gamerule-button.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 76px;
+    height: 35px;
+  }
+}
