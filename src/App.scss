@@ -1,0 +1,14 @@
+#root, .App, .main {
+  // height: 100%;
+}
+#root{
+  height: 100vh;
+  background-image: url(./assets/images/bottom-base.png);
+  background-size: 100%;
+  background-repeat: repeat-y;
+}
+.main{
+  background-image: url(./assets/images/main-bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}

@@ -3,10 +3,6 @@
   src: url(../../assets/font/pocket_calcuatlor_ot.otf),
     url(../../assets/font/pocket_calcuatlor_tt.ttf) format("truetype");
 }
-@keyframes runanime {
-  from {opacity: 1;}
-  to {opacity: 0;}
-}
 .machine-main {
   position: relative;
   .score-container {
@@ -14,7 +10,7 @@
     height: 99px;
     display: flex;
     color: #f3866a;
-    font-size: 31px;
+    font-size: 29px;
     line-height: 40px;
     font-family: numberFormat;
     letter-spacing: 2px;
@@ -33,7 +29,7 @@
       .score-text {
         position: absolute;
         bottom: 0px;
-        right: 27px;
+        right: 31px;
       }
     }
   }
@@ -63,11 +59,9 @@
           position: absolute;
           top: -6px;
           left: -7px;
-          z-index: 1;
-          background-image: url(../../assets/images/bet-item-light.png);
+          background-image: url(../../assets/images/bet-items/bet-item-light.png);
           background-size: 100% 100%;
           background-repeat: no-repeat;
-          animation: runanime .3s linear;
         }
         &.bet-item1 {
           top: 0;
@@ -222,77 +216,48 @@
     position: relative;
     height: 52px;
     .button-circle {
-      // background-size: 100% 100%;
-      background-image: url(../../assets/images/action-buttons.png);
-      background-size: 497%;
+      background-size: 100% 100%;
       background-repeat: no-repeat;
-      width: 70px;
-      height: 60px;
-      position: absolute;
+      width: 73px;
+      height: 63px;
       display: inline-block;
-      &.reset-button{
-        top: 0;
-        left: 0;
-        background-position: -183px -7px;
-        &:active {
-          background-position: -183px -81px;
-        }
-      }
       &.small-button {
-        top: 0;
-        left: 57px;
-        background-position: 0px -167px;
+        background-image: url(../../assets/images/action-buttons/small-button.png);
         &:active {
-          background-position: -83px -167px;
-        }
-        &.btn-on{
-          background-position: -83px -167px;
+          background-image: url(../../assets/images/action-buttons/small-button-on.png);
         }
       }
       &.big-button {
-        top: 0;
-        left: 115px;
-        background-position: 0 -93px;
+        background-image: url(../../assets/images/action-buttons/big-button.png);
         &:active {
-          background-position: -83px -93px;
-        }
-        &.btn-on{
-          background-position: -83px -93px;
+          background-image: url(../../assets/images/action-buttons/big-button-on.png);
         }
       }
       &.auto-button {
-        top: 0;
-        right: 61px;
-        background-position: -166px -170px;
+        background-image: url(../../assets/images/action-buttons/auto-button.png);
         &.auto-button-lock{
-          background-position: -266px -10px;
+          background-image: url(../../assets/images/action-buttons/auto-button-on.png);
         }
         &:active {
-          background-position: -266px -10pxx;
+          background-image: url(../../assets/images/action-buttons/auto-button-on.png);
         }
       }
       &.start-button {
-        top: 0;
-        right: 4px;
-        background-position: -268px -84px;
+        background-image: url(../../assets/images/action-buttons/start-button.png);
         &:active {
-          background-position: -268px -158px;
+          background-image: url(../../assets/images/action-buttons/start-button-on.png);
         }
       }
     }
     .button-rectangle {
-      position: absolute;
-      top: -7px;
-      right: 100px;
-      background-image: url(../../assets/images/action-buttons.png);
-      background-size: 394%;
-      background-position: -10px -5px;
+      background-image: url(../../assets/images/action-buttons/collect-button.png);
+      background-size: 100% 100%;
       background-repeat: no-repeat;
-      width: 89.5px;
-      height: 77px;
+      width: 79px;
+      height: 62px;
       display: inline-block;
       &:active {
-        background-position: -103px -5px;
+        background-image: url(../../assets/images/action-buttons/collect-button-on.png);
       }
     }
   }
@@ -318,67 +283,33 @@
   .bet-buttons {
     height: 62px;
     position: relative;
-    overflow: hidden;
     .bet-button-item {
       background-size: 100% 100%;
       width: 46px;
       height: 48px;
       display: inline-block;
-      position: absolute;
       &.bet-button-item1 {
-        width: 59px;
-        height: 74px;
-        top: -7px;
-        left: 0;
         background-image: url(/src/assets/images/bet-buttons/button1.png);
       }
       &.bet-button-item2 {
-        width: 62.5px;
-        height: 74px;
-        top: -7px;
-        left: 39px;
         background-image: url(/src/assets/images/bet-buttons/button2.png);
       }
       &.bet-button-item3 {
-        width: 56.5px;
-        height: 66px;
-        top: 2px;
-        left: 87px;
         background-image: url(/src/assets/images/bet-buttons/button3.png);
       }
       &.bet-button-item4 {
-        width: 56.5px;
-        height: 66px;
-        top: 2px;
-        left: 132px;
         background-image: url(/src/assets/images/bet-buttons/button4.png);
       }
       &.bet-button-item5 {
-        width: 56.5px;
-        height: 66px;
-        top: 2px;
-        right: 140px;
         background-image: url(/src/assets/images/bet-buttons/button5.png);
       }
       &.bet-button-item6 {
-        width: 56.5px;
-        height: 66px;
-        top: 2px;
-        right: 95px;
         background-image: url(/src/assets/images/bet-buttons/button6.png);
       }
       &.bet-button-item7 {
-        width: 62.5px;
-        height: 74px;
-        top: -7px;
-        right: 44px;
         background-image: url(/src/assets/images/bet-buttons/button7.png);
       }
       &.bet-button-item8 {
-        width: 62.5px;
-        height: 75px;
-        top: -7px;
-        right: 0;
         background-image: url(/src/assets/images/bet-buttons/button8.png);
       }
     }
